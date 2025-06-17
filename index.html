@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arkeo-Logy - Serveur ARK: Survival Ascended PvE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Conteneur principal pour le fond et l'overlay */
+        .main-background {
+            background-image: url('Gemini_Generated_Image_3mcg8f3mcg8f3mcg.jpg'); /* Votre logo sur fond de jungle comme fond */
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -2;
+        }
+
+        /* Overlay semi-transparent par-dessus l'image de fond */
+        .background-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4); /* Opacité réduite à 40% */
+            z-index: -1;
+        }
+
+        /* Styles pour la barre de navigation */
+        nav {
+            background-color: rgba(51, 51, 51, 0.9);
+            padding: 10px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: rgba(70, 70, 70, 0.9);
+        }
+
+        .container {
+            width: 80%;
+            max-width: 960px;
+            margin: 40px auto;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        header h1 {
+            color: #28a745;
+            margin-top: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        h2 {
+            color: #333;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 8px;
+            margin-top: 40px;
+            font-size: 1.8em;
+        }
+
+        h3 {
+            color: #4CAF50;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            padding-left: 0;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+        }
+
+        .discord-button {
+            display: inline-block;
+            background-color: #7289DA;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 25px;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: background-color 0.3s ease;
+        }
+
+        .discord-button:hover {
+            background-color: #677BC4;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 25px;
+            border-top: 1px solid #eee;
+            color: #777;
+            font-size: 0.9em;
+        }
+
+        /* Centrer le contenu de la section Discord */
+        .centered-section {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-background"></div>
+    <div class="background-overlay"></div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="stats.html">Statistiques</a></li>
+            <li><a href="mods.html">Mods</a></li>
+            <li><a href="regles.html">Règles</a></li>
+            <li><a href="rotation-maps.html">Rotation des Cartes</a></li>
+            <li><a href="donation.html">Donation</a></li> <li><a href="https://discord.gg/SA3fgStW" target="_blank">Discord</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>🌟 Bienvenue sur Arkeo-Logy ! 🌟</h1>
+        </header>
+
+        <section>
+            <p>Prêt pour une aventure PvE moddée sur Ark: Survival Ascended ? Notre serveur est conçu pour vous offrir une expérience proche du jeu de base, mais avec quelques boosts pour vous faire gagner du temps et des mods de qualité de vie (QOL) ainsi que des éléments décoratifs.</p>
+
+            <h2>Notre cluster fonctionne sur un serveur privé avec des ressources limitées. Voici comment il est organisé sur trois cartes :</h2>
+
+            <ul>
+                <li>
+                    <h3>Ragnarok :</h3>
+                    <p>C'est notre carte principale et permanente, très appréciée des joueurs depuis sa sortie.</p>
+                </li>
+                <li>
+                    <h3>The Island :</h3>
+                    <p>Également une carte permanente, elle permet à chacun de profiter du contenu de base du jeu et de la Tek Cave.</p>
+                </li>
+                <li>
+                    <h3>Carte Rotative :</h3>
+                    <p>Les autres cartes d'Ark (Aberration, Extinction, Scorched Earth, The Center, etc.) tourneront régulièrement. L'objectif de ces cartes est de vous donner accès à des ressources exclusives ou de découvrir leur contenu PvE spécifique.</p>
+                    <p><strong>Attention :</strong> Il est fortement déconseillé de vous installer ou de vous déconnecter sur cette carte. Elle change chaque dimanche pour une autre et ne reviendra que plusieurs semaines plus tard. Le temps de rotation n'est pas encore défini, mais la date de changement sera annoncée sur le canal <a href="https://discord.com/channels/YOUR_SERVER_ID/YOUR_NEWS_CHANNEL_ID" target="_blank">#Rotation Maps</a>.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="centered-section">
+            <h2>Rejoignez la Communauté Arkeo-Logy !</h2>
+            <p>Nous croyons en une communauté soudée et bienveillante. Pour ne rien manquer des annonces, des événements, des rotations de cartes et pour échanger avec d'autres survivants, rejoignez notre Discord :</p>
+            <p>
+                <a href="https://discord.gg/SA3fgStW" class="discord-button" target="_blank">Rejoindre notre Discord</a>
+            </p>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Arkeo-Logy. Tous droits réservés.</p>
+        </footer>
+    </div>
+</body>
+</html>

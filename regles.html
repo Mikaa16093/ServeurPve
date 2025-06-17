@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Règles du Serveur - Arkeo-Logy</title>
+    <style>
+        /* Copiez ici tout le CSS de la page index.html pour une cohérence visuelle */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Conteneur principal pour le fond et l'overlay */
+        .main-background {
+            background-image: url('Gemini_Generated_Image_3mcg8f3mcg8f3mcg.jpg'); /* Votre logo sur fond de jungle comme fond */
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -2;
+        }
+
+        /* Overlay semi-transparent par-dessus l'image de fond */
+        .background-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4); /* Opacité réduite à 40% */
+            z-index: -1;
+        }
+
+        nav {
+            background-color: rgba(51, 51, 51, 0.9);
+            padding: 10px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: rgba(70, 70, 70, 0.9);
+        }
+
+        .container {
+            width: 80%;
+            max-width: 960px;
+            margin: 40px auto;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        header h1 {
+            color: #28a745;
+            margin-top: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        h2 {
+            color: #333;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 8px;
+            margin-top: 40px;
+            font-size: 1.8em;
+        }
+
+        h3 {
+            color: #4CAF50;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            font-weight: bold; /* Ensures h3 titles are bold */
+        }
+
+        .rules-section ul {
+            list-style-type: disc; /* Bullet points for sub-sections */
+            margin-left: 20px;
+            padding-left: 0;
+        }
+
+        .rules-section ul li {
+            margin-bottom: 8px;
+        }
+
+        .rules-section ol {
+            list-style-type: decimal; /* Numbered list for main rules */
+            margin-left: 20px;
+            padding-left: 0;
+        }
+
+        .rules-section ol li {
+            margin-bottom: 15px;
+        }
+
+        .rules-section strong {
+            font-weight: bold; /* Explicitly make bold text bold */
+        }
+
+        .important-note {
+            color: #d9534f; /* Red for important notes */
+            font-weight: bold;
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #d9534f;
+            border-radius: 5px;
+            background-color: rgba(217, 83, 79, 0.05);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 25px;
+            border-top: 1px solid #eee;
+            color: #777;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-background"></div>
+    <div class="background-overlay"></div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="stats.html">Statistiques</a></li>
+            <li><a href="mods.html">Mods</a></li>
+            <li><a href="regles.html">Règles</a></li>
+            <li><a href="rotation-maps.html">Rotation des Cartes</a></li>
+            <li><a href="donation.html">Donation</a></li>
+            <li><a href="https://discord.gg/SA3fgStW" target="_blank">Discord</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>📜 Règlement du Serveur PvE Arkeo-Logy 📜</h1>
+            <p>Bienvenue sur Arkeo-Logy ! Pour que l'aventure soit agréable et équitable pour tous, nous vous demandons de prendre connaissance et de respecter les règles suivantes.</p>
+        </header>
+
+        <section class="rules-section">
+            <p class="important-note">
+                Information importante : L'administrateur est avant tout un joueur comme vous. Il n'intervient pas dans le jeu et n'est pas responsable des bugs inhérents à Ark. Chacun doit gérer sa propre expérience et ses éventuels problèmes. Les seules exceptions concernent les abus flagrants et délibérés des règles du serveur, qui se solderont souvent par un bannissement direct.
+            </p>
+
+            <h2>Respect et Conduite</h2>
+            <ol>
+                <li>
+                    <strong>Respect d'autrui :</strong> Adoptez un comportement respectueux envers tous les joueurs. Les insultes, le harcèlement, la discrimination (racisme, sexisme, homophobie, etc.) sous toutes leurs formes sont strictement interdits. Le chat général doit rester courtois et exempt de propos agressifs ou vulgaires.
+                </li>
+                <li>
+                    <strong>Pas de griefing :</strong> Le griefing, c'est-à-dire toute action visant à nuire intentionnellement à l'expérience de jeu d'un autre joueur (blocage de ressources, appâtage de dinos sauvages vers des bases, etc.), est formellement prohibé.
+                </li>
+                <li>
+                    <strong>Langue :</strong> La langue principale du serveur est le français. Veuillez utiliser un français correct et compréhensible, sans langage SMS, dans le chat général pour faciliter la communication.
+                </li>
+            </ol>
+
+            <h2>Construction et Occupation du Territoire</h2>
+            <p>Les ressources de notre serveur étant limitées, il est judicieux de ne pas abuser de la taille de vos constructions pour le confort de tous les joueurs.</p>
+            <ul>
+                <li>
+                    <strong>Emplacements interdits :</strong>
+                    <ul>
+                        <li><strong>Blocage de cavernes :</strong> Il est interdit de construire dans ou devant les entrées des cavernes (artefacts, ressources riches, Tek, extinction) pour bloquer l'accès aux ressources ou au contenu PvE.</li>
+                        <li><strong>Blocage de spawns :</strong> Ne construisez pas sur les zones de spawn de ressources rares (métal, obsidienne, cristal, pétrole, etc.) ou de dinosaures importants (bosses, Gachas, etc.). Laissez suffisamment d'espace pour que les ressources et les créatures puissent apparaître.</li>
+                        <li><strong>Points d'intérêt :</strong> Évitez de construire sur des points d'intérêt majeurs ou uniques des cartes qui pourraient gêner l'exploration d'autres joueurs.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Piliers/Fondations :</strong> L'abus de piliers ou de fondations pour revendiquer un territoire sans y construire est interdit. Ces structures doivent être utilisées uniquement pour sécuriser une zone de construction active ou future.
+                </li>
+                <li>
+                    <strong>Démolition des structures inactives :</strong> Les bases et structures inactives depuis plus de 7 jours (temps d'inactivité à revoir si besoin) sans maintenance seront considérées comme abandonnées et pourront être détruites pour libérer de l'espace serveur.
+                </li>
+            </ul>
+
+            <h2>Dinosaures</h2>
+            <p>Pour la performance du serveur, nous vous demandons de gérer vos dinosaures de manière responsable.</p>
+            <ul>
+                <li>
+                    <strong>Limite en extérieur :</strong> Limitez le nombre de dinosaures actifs en dehors de votre base à environ 50.
+                </li>
+                <li>
+                    <strong>Privilégiez les Cryopods :</strong> Privilégiez au maximum l'utilisation des Cryopods pour stocker vos dinosaures non utilisés. Cela réduit considérablement le lag et les ressources serveur.
+                </li>
+                <li>
+                    <strong>Suivi des dinos :</strong> Ne laissez pas vos dinosaures en mode "follow" en dehors de votre base sur de longues périodes, cela peut causer du lag pour les autres joueurs.
+                </li>
+            </ul>
+
+            <h2>Cluster Rotatif (Carte Rotative)</h2>
+            <ul>
+                <li>
+                    Il est fortement déconseillé de vous installer ou de vous déconnecter sur la carte rotative. Bien que les structures ne soient pas supprimées, la carte étant inaccessible pendant plusieurs semaines après rotation, vous n'aurez plus accès à vos constructions et dinosaures.
+                </li>
+                <li>
+                    <strong>Transferts :</strong> Vous pouvez transférer des objets et des dinos de et vers la carte rotative, mais assurez-vous de récupérer vos biens avant le changement de map.
+                </li>
+                <li>
+                    <strong>Annonce de rotation :</strong> La date du prochain changement de carte rotative sera annoncée sur le canal Discord ⁠rotation-maps.
+                </li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Arkeo-Logy. Tous droits réservés.</p>
+        </footer>
+    </div>
+</body>
+</html>

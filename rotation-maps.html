@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotation des Cartes - Arkeo-Logy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Conteneur principal pour le fond et l'overlay */
+        .main-background {
+            background-image: url('Gemini_Generated_Image_3mcg8f3mcg8f3mcg.jpg'); /* Votre logo sur fond de jungle comme fond */
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -2;
+        }
+
+        /* Overlay semi-transparent par-dessus l'image de fond */
+        .background-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4); /* Opacité réduite à 40% */
+            z-index: -1;
+        }
+
+        /* Styles pour la barre de navigation (identiques à index.html) */
+        nav {
+            background-color: rgba(51, 51, 51, 0.9);
+            padding: 10px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: rgba(70, 70, 70, 0.9);
+        }
+
+        .container {
+            width: 80%;
+            max-width: 960px;
+            margin: 40px auto;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        header h1 {
+            color: #28a745;
+            margin-top: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        h2 {
+            color: #333;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 8px;
+            margin-top: 40px;
+            font-size: 1.8em;
+        }
+
+        h3 {
+            color: #4CAF50;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            padding-left: 0;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+        }
+
+        .discord-link {
+            font-weight: bold;
+            color: #7289DA; /* Couleur Discord */
+            text-decoration: none;
+        }
+
+        .discord-link:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 25px;
+            border-top: 1px solid #eee;
+            color: #777;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-background"></div>
+    <div class="background-overlay"></div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="stats.html">Statistiques</a></li>
+            <li><a href="mods.html">Mods</a></li>
+            <li><a href="regles.html">Règles</a></li>
+            <li><a href="rotation-maps.html">Rotation des Cartes</a></li>
+            <li><a href="donation.html">Donation</a></li>
+            <li><a href="https://discord.gg/SA3fgStW" target="_blank">Discord</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>🗺️ Rotation des Cartes 🗺️</h1>
+            <p>Découvrez comment les cartes de notre cluster Arkeo-Logy sont organisées !</p>
+        </header>
+
+        <section>
+            <h2>Les Cartes Permanentes</h2>
+            <p>Notre cluster est bâti autour de deux cartes fondamentales qui sont accessibles en permanence, vous permettant de construire vos bases et de stocker vos dinosaures en toute sécurité.</p>
+            <ul>
+                <li>
+                    <h3>Ragnarok :</h3>
+                    <p>Cette carte est notre pilier principal. Très appréciée pour ses biomes variés, ses créatures uniques et ses nombreuses zones de construction, Ragnarok est la carte idéale pour établir votre foyer permanent et explorer à long terme.</p>
+                </li>
+                <li>
+                    <h3>The Island :</h3>
+                    <p>La carte originelle d'ARK. The Island est une carte permanente pour ceux qui souhaitent revivre l'expérience classique, affronter les boss et accéder à la Tek Cave pour débloquer le contenu de fin de jeu.</p>
+                </li>
+            </ul>
+
+            <h2>La Carte Rotative</h2>
+            <p>En plus de nos cartes permanentes, nous avons une carte qui change régulièrement pour vous offrir de la diversité et l'accès à des ressources spécifiques aux DLC, ainsi que la découverte de nouveaux environnements.</p>
+            <ul>
+                <li>
+                    <h3>Principe de Rotation :</h3>
+                    <p>La carte rotative changera chaque semaine, le **dimanche**. Son objectif est de vous permettre de collecter des ressources exclusives à certains DLC (comme le soufre sur Scorched Earth, les champignons sur Aberration, les éléments sur Extinction, etc.) ou de découvrir d'autres biomes.</p>
+                </li>
+                <li>
+                    <h3>Cartes Inclues (liste non exhaustive) :</h3>
+                    <ul>
+                        <li>Aberration</li>
+                        <li>Extinction</li>
+                        <li>Scorched Earth</li>
+                        <li>The Center</li>
+                        <li>Genesis Part 1 & 2 (en rotation future)</li>
+                        <li>Et bien d'autres !</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Règles Importantes pour la Carte Rotative :</h3>
+                    <p class="warning-text"><strong>⚠️ AVERTISSEMENT :</strong> Il est **fortement déconseillé de vous installer ou de vous déconnecter** sur la carte rotative. Toute structure construite et tout dinosaure laissé sur cette carte seront **perdus** lors du changement de carte hebdomadaire.</p>
+                    <p>Utilisez cette carte pour des missions de récupération rapide de ressources ou pour l'exploration temporaire. **Transférez toujours vos objets et dinosaures importants vers Ragnarok ou The Island avant la rotation.**</p>
+                </li>
+            </ul>
+
+            <h2>Annonces et Calendrier</h2>
+            <p>La date exacte du changement de carte et le nom de la prochaine carte en rotation seront toujours annoncés sur notre serveur Discord, dans le canal dédié aux annonces de rotation des cartes :</p>
+            <p class="centered-text">
+                Rendez-vous sur : <a href="https://discord.com/channels/YOUR_SERVER_ID/YOUR_ROTATION_MAPS_CHANNEL_ID" target="_blank" class="discord-link">#Rotation Maps sur Discord</a>
+            </p>
+            <p style="font-size: 0.9em; color: #777; text-align: center;">*Veuillez remplacer `YOUR_SERVER_ID` et `YOUR_ROTATION_MAPS_CHANNEL_ID` par les vrais IDs de votre serveur et de votre canal Discord.</p>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Arkeo-Logy. Tous droits réservés.</p>
+        </footer>
+    </div>
+</body>
+</html>

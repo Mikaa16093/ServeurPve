@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation - Arkeo-Logy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Conteneur principal pour le fond et l'overlay */
+        .main-background {
+            background-image: url('Gemini_Generated_Image_3mcg8f3mcg8f3mcg.jpg'); /* Votre logo sur fond de jungle comme fond */
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -2;
+        }
+
+        /* Overlay semi-transparent par-dessus l'image de fond */
+        .background-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4); /* Opacité réduite à 40% */
+            z-index: -1;
+        }
+
+        /* Styles pour la barre de navigation (identiques à index.html) */
+        nav {
+            background-color: rgba(51, 51, 51, 0.9);
+            padding: 10px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: rgba(70, 70, 70, 0.9);
+        }
+
+        .container {
+            width: 80%;
+            max-width: 960px;
+            margin: 40px auto;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        header h1 {
+            color: #28a745;
+            margin-top: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        h2 {
+            color: #333;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 8px;
+            margin-top: 40px;
+            font-size: 1.8em;
+        }
+
+        h3 {
+            color: #4CAF50;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            padding-left: 0;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+        }
+
+        .paypal-button {
+            display: inline-block;
+            background-color: #0070BA; /* Couleur bleue de PayPal */
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 30px;
+            font-weight: bold;
+            font-size: 1.2em;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .paypal-button:hover {
+            background-color: #004085;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 25px;
+            border-top: 1px solid #eee;
+            color: #777;
+            font-size: 0.9em;
+        }
+
+        .centered-text {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-background"></div>
+    <div class="background-overlay"></div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="stats.html">Statistiques</a></li>
+            <li><a href="mods.html">Mods</a></li>
+            <li><a href="regles.html">Règles</a></li>
+            <li><a href="rotation-maps.html">Rotation des Cartes</a></li>
+            <li><a href="donation.html">Donation</a></li>
+            <li><a href="https://discord.gg/SA3fgStW" target="_blank">Discord</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>Soutenir Arkeo-Logy</h1>
+            <p>Votre soutien est précieux pour maintenir et améliorer nos serveurs !</p>
+        </header>
+
+        <section class="centered-text">
+            <h2>Pourquoi faire un don ?</h2>
+            <p>Faire fonctionner un serveur ARK de qualité a un coût. L'hébergement, la maintenance, les mises à jour et les sauvegardes représentent des dépenses continues. Vos dons, même les plus petits, nous aident directement à couvrir ces frais et à assurer la pérennité de votre expérience de jeu sur Arkeo-Logy.</p>
+            <p>À terme, si les ressources le permettent, nous pourrions envisager de financer l'ajout de plus de cartes permanentes à notre cluster. Cependant, notre priorité absolue restera toujours la stabilité et la performance de nos serveurs actuels pour garantir la meilleure expérience de jeu possible.</p>
+            <p>Nous tenons à vous remercier sincèrement pour toute aide que vous pourriez nous apporter. Chaque contribution est un signe de votre attachement à notre communauté.</p>
+
+            <h2>Principes de nos donations :</h2>
+            <ul>
+                <li><strong>Volontariat :</strong> Chaque donation est entièrement **volontaire**. Il n'y a aucune obligation de donner pour profiter pleinement de notre serveur et de sa communauté.</li>
+                <li><strong>Pas de bonus en jeu :</strong> Pour préserver l'équité et l'esprit PvE de notre serveur, **aucune donation ne donne droit à des avantages, des bonus, des objets ou des privilèges en jeu**. Tous les joueurs sont sur un pied d'égalité, que vous soyez donateur ou non.</li>
+                <li><strong>Transparence :</strong> Les fonds collectés servent exclusivement à couvrir les coûts liés à l'infrastructure du serveur (hébergement, logiciels, etc.).</li>
+            </ul>
+
+            <h2>Faire un don via PayPal</h2>
+            <p>Si vous souhaitez nous soutenir et nous aider à maintenir Arkeo-Logy en ligne, vous pouvez le faire en cliquant sur le bouton ci-dessous. Vous serez redirigé vers une page sécurisée de PayPal.</p>
+
+            <p>
+                <a href="YOUR_PAYPAL_DONATION_LINK_HERE" class="paypal-button" target="_blank">Faire un don via PayPal</a>
+            </p>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Arkeo-Logy. Tous droits réservés.</p>
+        </footer>
+    </div>
+</body>
+</html>

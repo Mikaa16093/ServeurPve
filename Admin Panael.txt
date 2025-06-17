@@ -1,0 +1,115 @@
+Admin Panael
+---------------
+
+User settings
+
+Discord
+Page Web
+https://discord.gg/NQdMeNY4
+https://mikaa16093.github.io/Arkeo-logy/index.html
+https://cdn.discordapp.com/attachments/1382315819790504050/1383716831671615508/Gemini_Generated_Image_sxdbncsxdbncsxdb.jpg?ex=684fce38&is=684e7cb8&hm=314d6c45cc5e64a16c389161a84a4106af031e0967cf93a1873b31c5f36bbd43&
+
+https://discord.gg/NQdMeNYh
+
+
+Bienvenue sur Arkeo-Logy !
+
+Pour obtenir plus d'informations sur le serveur et rejoindre notre communauté Discord, accédez au menu User Info Panel. Pour cela, restez appuyé sur :
+
+Carré sur PS5
+X sur Xbox
+R sur PC
+
+
+ Rotation des Cartes sur Arkeo-Logy 
+
+Carte Actuelle :  Amissa
+Date de Fin rotation :  Dimanche 29 Juin 2025 à minuit
+Prochaine Carte :  Extinction
+------------
+
+Bienvenue sur Arkeo-logy
+
+Bienvenue sur Arkeo-Logy !
+Prêt pour une aventure PvE moddée sur Ark: Survival Ascended ? Notre serveur est conçu pour vous offrir une expérience proche du jeu de base, mais avec quelques boosts pour vous faire gagner du temps et des mods de qualité de vie (QOL) ainsi que des éléments décoratifs.
+
+Notre cluster fonctionne sur un serveur privé avec des ressources limitées. Voici comment il est organisé sur trois cartes :
+
+Ragnarok : C'est notre carte principale et permanente, très appréciée des joueurs depuis sa sortie.
+
+The Island : Également une carte permanente, elle permet à chacun de profiter du contenu de base du jeu et de la Tek Cave.
+
+Carte Rotative : Les autres cartes d'Ark (Aberration, Extinction, Scorched Earth, The Center, etc.) tourneront régulièrement. L'objectif de ces cartes est de vous donner accès à des ressources exclusives ou de découvrir leur contenu PvE spécifique.
+
+Attention : Il est fortement déconseillé de vous installer ou de vous déconnecter sur la carte Rotative. Elle change chaque dimanche pour une autre et ne reviendra que plusieurs semaines plus tard. Le temps de rotation n'est pas encore défini, mais la date de changement sera annoncée sur la page de Bienvenue
+
+
+
+---------------------
+
+Règlement
+
+Règlement du Serveur PvE Arkeo-Logy
+Bienvenue sur Arkeo-Logy ! Pour que l'aventure soit agréable et équitable pour tous, nous vous demandons de prendre connaissance et de respecter les règles suivantes. Ne pas les suivre pourra entraîner des avertissements ou, dans les cas les plus graves, un bannissement du serveur.
+
+Information importante : L'administrateur est avant tout un joueur comme vous. Il n'intervient pas dans le jeu et n'est pas responsable des bugs inhérents à Ark. Chacun doit gérer sa propre expérience et ses éventuels problèmes. Les seules exceptions concernent les abus flagrants et délibérés des règles du serveur, qui se solderont souvent par un bannissement direct.
+
+Respect et Conduite,
+
+Respect d'autrui : Adoptez un comportement respectueux envers tous les joueurs. Les insultes, le harcèlement, la discrimination (racisme, sexisme, homophobie, etc.) sous toutes leurs formes sont strictement interdits. Le chat général doit rester courtois et exempt de propos agressifs ou vulgaires.
+Pas de griefing : Le griefing, c'est-à-dire toute action visant à nuire intentionnellement à l'expérience de jeu d'un autre joueur (blocage de ressources, appâtage de dinos sauvages vers des bases, etc.), est formellement prohibé.
+Langue : La langue principale du serveur est le français. Veuillez utiliser le français dans le chat général pour faciliter la communication.
+
+
+Construction et Occupation du Territoire
+
+Taille des bases : Les ressources de notre serveur étant limitées, il est judicieux de ne pas abuser de la taille de vos constructions pour le confort de tous les joueurs.
+Emplacements interdits :
+Blocage de cavernes : Il est interdit de construire dans ou devant les entrées des cavernes (artefacts, ressources riches, Tek, extinction) pour bloquer l'accès aux ressources ou au contenu PvE.
+Blocage de spawns : Ne construisez pas sur les zones de spawn de ressources rares (métal, obsidienne, cristal, pétrole, etc.) ou de dinosaures importants (bosses, Giga, etc.). Laissez suffisamment d'espace pour que les ressources et les créatures puissent apparaître.
+Points d'intérêt : Évitez de construire sur des points d'intérêt majeurs ou uniques des cartes qui pourraient gêner l'exploration d'autres joueurs.
+Piliers/Fondations : L'abus de piliers ou de fondations pour revendiquer un territoire sans y construire est interdit. Ces structures doivent être utilisées uniquement pour sécuriser une zone de construction active ou future.
+Démolition des structures inactives : Les bases et structures inactives depuis plus de 7 jours (temps d'inactivité à revoir si besoin) sans maintenance seront considérées comme abandonnées et pourront être détruites pour libérer de l'espace serveur.
+
+Dinosaures,
+
+Gestion des dinosaures : Pour la performance du serveur, nous vous demandons de gérer vos dinosaures de manière responsable.
+Limite en extérieur : Limitez le nombre de dinosaures actifs de votre base à environ 50.
+Privilégiez les Cryopods : Privilégiez au maximum l'utilisation des Cryopods pour stocker vos dinosaures non utilisés. Cela réduit considérablement le lag et les ressources serveur.
+Suivi des dinos : Ne laissez pas vos dinosaures en mode "follow" ou "agressif " en dehors de votre base , cela peut causer du lag pour les autres joueurs.
+
+----------------------
+
+Stat serveur
+
+
+Général
+
+Difficulté : Les dinosaures sauvages ont une difficulté de x5, ce qui signifie des dinosaures classiques jusqu'au niveau 150 et des Wyvernes  jusqu'au niveau 190.
+
+Taming : x5 (Les dinos apprivoisent cinq fois plus vite).
+Engrams : Tous les engrams sont débloqués automatiquement.
+Tir Allié : Activé (attention à vos alliés).
+Pas de collision de placement de structure : Placez vos constructions plus librement.
+Localisateur de cadavre : Activé.
+
+Progression et Récolte
+
+Expérience (XP) : Légèrement boostée par rapport aux taux officiels.
+Récolte des ressources :
+Joueur : x2
+Dinosaure : x3.2
+Cultures : Croissance x10.
+Loot (Beacons & Pêche) : Qualité x3 (beacons) / x5 (pêche).
+
+Dinosaures (Élevage)
+Vitesse de maturation des bébés : x30 (très rapide).
+Accouplement & Incubation : Intervalle x0.01 (très fréquent), Vitesse accouplement x10, Éclosion x10.
+Imprint : Intervalle x0.02 (très fréquent), Quantité par câlin x20, Bonus stat x1.6.
+
+
+Fonctionnalités Spéciales
+Recettes Custom : Ajout de diverses Narcotiques "RR" (coûts ajustés, incluant Éléments ou Poussière d'Élément) et d'une Potion de Taming Instantané.
+
+
+

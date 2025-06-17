@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mods du Serveur - Arkeo-Logy</title>
+    <style>
+        /* Copiez ici tout le CSS de la page index.html pour une cohérence visuelle */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Conteneur principal pour le fond et l'overlay */
+        .main-background {
+            background-image: url('Gemini_Generated_Image_3mcg8f3mcg8f3mcg.jpg'); /* Votre logo sur fond de jungle comme fond */
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -2;
+        }
+
+        /* Overlay semi-transparent par-dessus l'image de fond */
+        .background-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4); /* Opacité réduite à 40% */
+            z-index: -1;
+        }
+
+        nav {
+            background-color: rgba(51, 51, 51, 0.9);
+            padding: 10px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: rgba(70, 70, 70, 0.9);
+        }
+
+        .container {
+            width: 80%;
+            max-width: 960px;
+            margin: 40px auto;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        header h1 {
+            color: #28a745;
+            margin-top: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        h2 {
+            color: #333;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 8px;
+            margin-top: 40px;
+            font-size: 1.8em;
+        }
+
+        h3 {
+            color: #4CAF50;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            padding-left: 0;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+        }
+
+        .mod-list li {
+            margin-bottom: 15px;
+        }
+
+        .mod-list strong {
+            font-size: 1.1em;
+            color: #28a745;
+        }
+
+        .mod-list p {
+            margin-left: 10px; /* Indente la description du mod */
+        }
+
+        .mod-list a {
+            color: #007bff; /* Couleur de lien standard */
+            text-decoration: none;
+        }
+
+        .mod-list a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 25px;
+            border-top: 1px solid #eee;
+            color: #777;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-background"></div>
+    <div class="background-overlay"></div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="stats.html">Statistiques</a></li>
+            <li><a href="mods.html">Mods</a></li>
+            <li><a href="regles.html">Règles</a></li>
+            <li><a href="rotation-maps.html">Rotation des Cartes</a></li>
+            <li><a href="donation.html">Donation</a></li>
+            <li><a href="https://discord.gg/SA3fgStW" target="_blank">Discord</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>🛠️ Nos Mods ARK: Survival Ascended 🛠️</h1>
+            <p>Découvrez la liste complète des mods installés sur notre serveur pour une expérience de jeu PvE enrichie et améliorée !</p>
+        </header>
+
+        <section>
+            <h2>Mods Qualité de Vie & Utilitaires</h2>
+            <ul class="mod-list">
+                <li>
+                    <strong><a href="https://www.curseforge.com/ark-survival-ascended/mods/admin-panel" target="_blank">AdminPanel</a></strong> (ID: 929868)
+                    <p>Fournit aux administrateurs un panneau de contrôle en jeu pour gérer facilement le serveur et les joueurs.</p>
+                </li>
+                <li>
+                    <strong><a href="https://www.curseforge.com/ark-survival-ascended/mods/tg-stacking-mod-10000-90" target="_blank">TGStackingMods</a></strong> (ID: 929110)
+                    <p>Augmente considérablement les capacités de stack des objets, réduisant ainsi le besoin de gestion d'inventaire et de stockage.</p>
+                </li>
+                <li>
+                    <strong><a href="https://www.curseforge.com/ark-survival-ascended/mods/custom-dino-levels" target="_blank">CustomDinoLVL</a></strong> (ID: 928708)
+                    <p>Permet des réglages plus fins sur les niveaux des dinosaures sauvages pour un défi ou une expérience personnalisée.</p>
+                </li>
+                <li>
+                    <strong><a href="https://www.curseforge.com/ark-survival-ascended/mods/shiny-ascended" target="_blank">ShinyDinoAscended</a></strong> (ID: 928548)
+                    <p>Introduit des variantes "Shiny" de dinosaures avec des couleurs uniques et potentiellement des bonus, pour une chasse plus excitante.</p>
+                </li>
+                <li>
+                    <strong><a href="https://www.curseforge.com/ark-survival-ascended/mods/super-cryo-storage" target="_blank">SCS-Cryo</a></strong> (ID: 933099)
+                    <p>Améliore le système de cryopods pour un stockage et une gestion plus pratiques de vos dinosaures.</p>
+                </li>
+                <li>
+                    <strong><a href="https://www.curseforge.com/ark-survival-ascended/mods/awesometeleporters" target="_blank">Awesome-Teleporter</a></strong> (ID: 950914)
+                    <p>Ajoute des téléporteurs personnalisables pour des déplacements rapides et faciles à travers la carte et entre vos bases.</p>
+                </li>
+                <li>
+                    <strong><a href="https://www.curseforge.com/ark-survival-ascended/mods/items-plus-ascended" target="_blank">Items-Plus-Ascended</a></strong> (ID: 950421)
+                    <p>Propose une variété d'objets utilitaires et d'améliorations de qualité de vie pour simplifier le gameplay quotidien.</p>
+                </li>
+                <li>
+                    <strong><a href="https://www.curseforge.com/ark-survival-ascended/mods/super-spyglass-plus" target="_blank">Super-Spyglass-Plus</a></strong> (ID: 929420)
+                    <p>Améliore la lunette d'observation classique en affichant des informations détaillées sur les dinosaures et les structures.</p>
+                </li>
+                 <li>
+                    <strong><a href="https://www.curseforge.com/ark-survival-ascended/mods/net-pro" target="_blank">Net Pro</a></strong> (ID: 1019389)
+                    <p>Ajoute une version améliorée du filet de trappe, utile pour capturer des dinosaures plus efficacement.</p>
+                </li>
+                <li>
+                    <strong><a href="https://www.curseforge.com/ark-survival-ascended/mods/speedy-rhynio" target="_blank">Speedy Rhynio [Crossplay]</a></strong> (ID: 930032)
+                    <p>Modifie la Rhyniognatha pour la rendre plus rapide, améliorant son utilité en tant que transporteur.</p>
+                </li>
+                 <li>
+                    <strong><a href="https://www.curseforge.com/ark-survival-ascended/mods/rr-tranqs-and-more" target="_blank">RR-Tranqs and more</a></strong> (ID: 947982)
+                    <p>Ajoute de nouvelles munitions tranquillisantes et d'autres outils pour un apprivoisement plus polyvalent.</p>
+                </li>
+                <li>
+                    <strong><a href="https://www.curseforge.com/ark-survival-ascended/mods/upgrade-station" target="_blank">Upgrade Station</a></strong> (ID: 930494)
+                    <p>Introduit une station qui permet d'améliorer la qualité de vos outils, armes et armures.</p>
+                </li>
+                <li>
+                    <strong><a href="https://www.curseforge.com/ark-survival-ascended/mods/rr-potions" target="_blank">Potions</a></strong> (ID: 940338)
+                    <p>Ajoute diverses potions avec des effets utiles pour la survie, le taming, ou l'exploration.</p>
+                </li>
+            </ul>
+
+            <h2>Mods de Structures & Décoration</h2>
+            <ul class="mod-list">
+                <li>
+                    <strong><a href="https://www.curseforge.com/ark-survival-ascended/mods/cybers-structures" target="_blank">Cyberstructure</a></strong> (ID: 940975)
+                    <p>Offre une gamme de structures de construction au design futuriste ou high-tech.</p>
+                </li>
+                <li>
+                    <strong><a href="https://www.curseforge.com/ark-survival-ascended/mods/arkitect-structures-remastered/gallery" target="_blank">ASR - Arkitect Structures Remastered</a></strong> (ID: 931874)
+                    <p>Fournit un ensemble étendu de structures de construction avec plus d'options et de flexibilité pour la création de bases.</p>
+                </li>
+                <li>
+                    <strong><a href="https://www.curseforge.com/ark-survival-ascended/mods/shoko-decoration/gallery" target="_blank">Shoko-Deco</a></strong> (ID: 944162)
+                    <p>Ajoute une grande variété d'éléments décoratifs pour personnaliser et embellir vos bases.</p>
+                </li>
+                <li>
+                    <strong><a href="https://www.curseforge.com/ark-survival-ascended/mods/rr-floating-platforms" target="_blank">RR-Floating Platforms</a></strong> (ID: 962813)
+                    <p>Permet de construire des plateformes flottantes, ouvrant de nouvelles possibilités de construction aérienne.</p>
+                </li>
+                <li>
+                    <strong><a href="https://www.curseforge.com/ark-survival-ascended/mods/jvh-landscaping-mod" target="_blank">JVH Landscaping</a></strong> (ID: 937184)
+                    <p>Ajoute des éléments de paysagisme pour créer des environnements extérieurs réalistes et esthétiques autour de vos bases.</p>
+                </li>
+                <li>
+                    <strong><a href="https://www.curseforge.com/ark-survival-ascended/mods/wallnfloor-decor" target="_blank">Wall'n'Floor Decor</a></strong> (ID: 940786)
+                    <p>Propose de nouvelles options de décoration pour les murs et les sols, permettant une personnalisation intérieure plus poussée.</p>
+                </li>
+                <li>
+                    <strong><a href="https://www.curseforge.com/ark-survival-ascended/mods/klinger-additional-rustic-building" target="_blank">Klinger Additional Rustic Building</a></strong> (ID: 946694)
+                    <p>Ajoute des éléments de construction de style rustique pour ceux qui préfèrent une esthétique plus naturelle ou campagnarde.</p>
+                </li>
+            </ul>
+
+            <p>Cette liste est régulièrement mise à jour en fonction des ajouts et des retraits de mods. N'hésitez pas à consulter notre Discord pour les dernières informations !</p>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Arkeo-Logy. Tous droits réservés.</p>
+        </footer>
+    </div>
+</body>
+</html>
